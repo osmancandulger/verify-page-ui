@@ -5,4 +5,4 @@ Verify email via verification code UI development
 
 ## Inspired by Ildiko Gaspar https://dribbble.com/shots/7862386-Verify-Email-Address-UI-Design
 
-### see this project and more on https://codepen.io/osmancandulger/full/wvzbQxB
+#### see this project and more on https://codepen.io/osmancandulger/full/wvzbQxB
