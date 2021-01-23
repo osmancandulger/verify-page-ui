@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/background-image.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.65);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 752px;
+  height: 482px;
+  border: 5px solid;
+  border-radius: 18px;
+  box-shadow: 1px 3px 48px 13px rgba(29, 37, 82, 0.3);
+  z-index: 0;
+  .title {
+    display: flex;
+    width: 100%;
+    height: 145px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    .container-title {
+      width: 100%;
+      position: relative;
+      top: 56px;
+      color: #1c2537;
+      font-size: 24px;
+      line-height: 29px;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .container-subtitle {
+      width: 75%;
+      position: relative;
+      top: 70px;
+      color: #1c2537;
+      font-size: 13px;
+      line-height: 19.45px;
+      font-weight: 300;
+      text-align: center;
+    }
+  }
+
+  .code-section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    .code-number {
+      font-size: 45px;
+      color: black;
+    }
+
+    .code-box {
+      display: flex;
+      margin-left: 18px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 35px;
+      width: 91px;
+      height: 125px;
+      border: 2px solid rgba(98, 122, 209, 0.12);
+      border-radius: 10px;
+    }
+    .code-box2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 18px;
+      margin-top: 35px;
+      width: 91px;
+      height: 125px;
+      border: 2px solid #627ad1;
+      border-radius: 10px;
+    }
+  }
+  .footer-container {
+    width: 480px;
+    position: relative;
+    top: 35px;
+    left: 65px;
+    height: 37px;
+    background-color: #f1f1f7;
+    border-radius: 10px;
+
+    margin: auto auto;
+    span {
+      width: 100%;
+      height: 100%;
+      color: #4a5876;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16.67;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a {
+        text-decoration: none;
+        color: #627ad1;
+      }
+    }
+  }
+}
+
+.verify-section {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 752px;
+  height: 442px;
+  border: 5px solid;
+  border-radius: 18px;
+  margin-top: 362px;
+  right: 246px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 3px 48px 13px rgba(29, 37, 82, 0.3);
+  z-index: 1;
+  .title {
+    display: flex;
+    width: 100%;
+    height: 145px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+
+    .verify-title {
+      width: 100%;
+      position: relative;
+      top: 56px;
+      color: #1c2537;
+      font-size: 24px;
+      line-height: 29px;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .verify-subtitle {
+      width: 65%;
+      position: relative;
+      top: 70px;
+      color: #1c2537;
+      font-size: 13px;
+      line-height: 19.45px;
+      font-weight: 300;
+      text-align: center;
+    }
+  }
+  .code-number {
+    margin: 0 auto;
+
+    span {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      width: 260px;
+      height: 115px;
+      border-radius: 10px;
+      background-color: #f1f1f7;
+      font-size: 45px;
+      font-weight: 400;
+      line-height: 76.4px;
+      color: #1c2537;
+      letter-spacing: 11px;
+    }
+  }
+  .sub-text {
+    width: 65%;
+    position: relative;
+    margin: 0 auto;
+    top: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+  }
+  .footer-text {
+    width: 72%;
+    position: relative;
+    margin: 0 auto;
+    top: 80px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    a {
+      padding-left: 4px;
+      text-decoration: none;
+      color: #627ad1;
+    }
+  }
+}
+
+.container-wrap {
+  display: flex;
+  position: relative;
+  height: 860px;
+  width: 100%;
+  justify-content: center;
+  margin-left: 125px;
+}
